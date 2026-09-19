@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4ead8" />
+    <meta name="description" content="Un pequeño detalle con flores amarillas para el 21 de septiembre." />
+    <title>Flores amarillas</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23f4ead8'/%3E%3Cellipse cx='16' cy='8.5' rx='3.2' ry='7' fill='%23efc44a'/%3E%3Cellipse cx='16' cy='8.5' rx='3.2' ry='7' fill='%23efc44a' transform='rotate(45 16 16)'/%3E%3Cellipse cx='16' cy='8.5' rx='3.2' ry='7' fill='%23e8b43a' transform='rotate(90 16 16)'/%3E%3Cellipse cx='16' cy='8.5' rx='3.2' ry='7' fill='%23efc44a' transform='rotate(135 16 16)'/%3E%3Cellipse cx='16' cy='8.5' rx='3.2' ry='7' fill='%23d9a428' transform='rotate(180 16 16)'/%3E%3Cellipse cx='16' cy='8.5' rx='3.2' ry='7' fill='%23efc44a' transform='rotate(225 16 16)'/%3E%3Cellipse cx='16' cy='8.5' rx='3.2' ry='7' fill='%23e8b43a' transform='rotate(270 16 16)'/%3E%3Cellipse cx='16' cy='8.5' rx='3.2' ry='7' fill='%23efc44a' transform='rotate(315 16 16)'/%3E%3Ccircle cx='16' cy='16' r='4.2' fill='%23b56b14'/%3E%3Ccircle cx='16' cy='15.4' r='2' fill='%23f3d27a'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+    <svg class="svg-defs" aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id="petalo-claro" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#fff4b8" />
+          <stop offset="55%" stop-color="#f2c445" />
+          <stop offset="100%" stop-color="#d9a428" />
+        </linearGradient>
+        <linearGradient id="petalo-medio" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#ffe98a" />
+          <stop offset="100%" stop-color="#c9921f" />
+        </linearGradient>
+        <linearGradient id="petalo-profundo" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#f7d56a" />
+          <stop offset="100%" stop-color="#c07d18" />
+        </linearGradient>
+        <radialGradient id="centro-flor" cx="42%" cy="38%" r="62%">
+          <stop offset="0%" stop-color="#fff1c2" />
+          <stop offset="38%" stop-color="#e39a22" />
+          <stop offset="100%" stop-color="#8a4e12" />
+        </radialGradient>
+        <linearGradient id="tallo" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#7d8a5a" />
+          <stop offset="100%" stop-color="#5c6840" />
+        </linearGradient>
+
+        <symbol id="flor-a" viewBox="0 0 120 140">
+          <path d="M60 68 C58 92 62 118 60 138" fill="none" stroke="url(#tallo)" stroke-width="2.4" stroke-linecap="round" />
+          <path d="M60 104 C48 98 38 108 32 118" fill="none" stroke="url(#tallo)" stroke-width="1.8" stroke-linecap="round" />
+          <ellipse cx="30" cy="122" rx="10" ry="5.5" fill="#6f7c4e" transform="rotate(-28 30 122)" opacity="0.85" />
+          <g transform="translate(60 58)">
+            <ellipse rx="13" ry="32" fill="url(#petalo-profundo)" transform="rotate(18)" />
+            <ellipse rx="13" ry="32" fill="url(#petalo-medio)" transform="rotate(63)" />
+            <ellipse rx="13" ry="32" fill="url(#petalo-claro)" transform="rotate(108)" />
+            <ellipse rx="13" ry="32" fill="url(#petalo-medio)" transform="rotate(153)" />
+            <ellipse rx="13" ry="32" fill="url(#petalo-profundo)" transform="rotate(198)" />
+            <ellipse rx="13" ry="32" fill="url(#petalo-claro)" transform="rotate(243)" />
+            <ellipse rx="13" ry="32" fill="url(#petalo-medio)" transform="rotate(288)" />
+            <ellipse rx="13" ry="32" fill="url(#petalo-claro)" transform="rotate(333)" />
+            <circle r="14" fill="url(#centro-flor)" />
+            <circle r="5.5" fill="#6e3a10" opacity="0.28" />
+          </g>
+        </symbol>
+
+        <symbol id="flor-b" viewBox="0 0 120 140">
+          <path d="M62 70 C70 96 58 120 64 138" fill="none" stroke="url(#tallo)" stroke-width="2.2" stroke-linecap="round" />
+          <g transform="translate(60 56)">
+            <ellipse rx="16" ry="30" fill="url(#petalo-medio)" transform="rotate(0)" />
+            <ellipse rx="16" ry="30" fill="url(#petalo-claro)" transform="rotate(72)" />
+            <ellipse rx="16" ry="30" fill="url(#petalo-profundo)" transform="rotate(144)" />
+            <ellipse rx="16" ry="30" fill="url(#petalo-claro)" transform="rotate(216)" />
+            <ellipse rx="16" ry="30" fill="url(#petalo-medio)" transform="rotate(288)" />
+            <circle r="13" fill="url(#centro-flor)" />
+            <circle r="6" fill="#f6de8a" opacity="0.55" />
+          </g>
+        </symbol>
+
+        <symbol id="flor-c" viewBox="0 0 100 100">
+          <g transform="translate(50 50)">
+            <ellipse rx="9" ry="24" fill="url(#petalo-claro)" transform="rotate(12)" />
+            <ellipse rx="9" ry="24" fill="url(#petalo-medio)" transform="rotate(57)" />
+            <ellipse rx="9" ry="24" fill="url(#petalo-profundo)" transform="rotate(102)" />
+            <ellipse rx="9" ry="24" fill="url(#petalo-claro)" transform="rotate(147)" />
+            <ellipse rx="9" ry="24" fill="url(#petalo-medio)" transform="rotate(192)" />
+            <ellipse rx="9" ry="24" fill="url(#petalo-claro)" transform="rotate(237)" />
+            <ellipse rx="9" ry="24" fill="url(#petalo-profundo)" transform="rotate(282)" />
+            <ellipse rx="9" ry="24" fill="url(#petalo-medio)" transform="rotate(327)" />
+            <circle r="10" fill="url(#centro-flor)" />
+          </g>
+        </symbol>
+
+        <symbol id="petalo-suelto" viewBox="0 0 24 36">
+          <path
+            d="M12 2 C17 8 22 16 12 34 C2 16 7 8 12 2 Z"
+            fill="url(#petalo-claro)"
+            stroke="#d9a428"
+            stroke-width="0.4"
+            opacity="0.92"
+          />
+        </symbol>
+      </defs>
+    </svg>
+
+    <section class="inicio" id="inicio" aria-labelledby="inicio-titulo">
+      <div class="inicio__contenido">
+        <svg class="inicio__flor" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+          <use href="#flor-c" />
+        </svg>
+        <h1 id="inicio-titulo" class="inicio__titulo">Hay algo que quiero decirte...</h1>
+        <button class="boton" type="button" id="abrir-regalo">
+          Abrir mi regalo
+        </button>
+      </div>
+    </section>
+
+    <main class="regalo" id="contenido" hidden inert>
+      <div class="jardin" aria-hidden="true">
+        <svg class="flor flor--1" viewBox="0 0 120 140"><use href="#flor-a" /></svg>
+        <svg class="flor flor--2" viewBox="0 0 120 140"><use href="#flor-b" /></svg>
+        <svg class="flor flor--3" viewBox="0 0 100 100"><use href="#flor-c" /></svg>
+        <svg class="flor flor--4" viewBox="0 0 120 140"><use href="#flor-a" /></svg>
+        <svg class="flor flor--5" viewBox="0 0 120 140"><use href="#flor-b" /></svg>
+        <svg class="flor flor--6" viewBox="0 0 100 100"><use href="#flor-c" /></svg>
+        <svg class="flor flor--7" viewBox="0 0 120 140"><use href="#flor-a" /></svg>
+        <svg class="flor flor--8" viewBox="0 0 100 100"><use href="#flor-c" /></svg>
+      </div>
+
+      <div class="petalos" id="petalos" aria-hidden="true"></div>
+
+      <article class="carta" aria-labelledby="dedicatoria">
+        <p class="carta__fecha">21 de septiembre</p>
+        <h2 class="carta__para" id="dedicatoria" tabindex="-1">
+          Para <span id="nombre-destinataria">ti</span>
+        </h2>
+        <div class="carta__mensaje" id="mensaje"></div>
+        <p class="carta__despedida" id="despedida"></p>
+        <p class="carta__pd">P.D. Espero que esto te haya sacado una sonrisa.</p>
+        <button class="boton boton--suave" type="button" id="mas-flores" aria-label="Soltar más flores amarillas">
+          Un poquito más de flores
+        </button>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
